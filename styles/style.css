@@ -2,3 +2,61 @@
 	margin: 0;
 	padding: 0;
 }
+
+.banner {
+	height: 1000px;
+	background: url(../img/background.jpg) no-repeat center top; 
+	          background-size: cover;
+	     -moz-background-size: cover;
+	       -o-background-size: cover;
+	  -webkit-background-size: cover;
+  	background-color: #ccc;
+}
+
+.wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 21px;
+}
+
+.logo img {
+	width: 60px;
+	height: 63px;
+}
+
+nav {
+	float: right;
+	margin-top: 40px;
+}
+
+nav li {
+	display: table-cell;
+	float: left;
+	margin-right: 55px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	font: normal 14px "Arial", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+header:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+	text-align: center;
+	padding-top: 153px;
+}
