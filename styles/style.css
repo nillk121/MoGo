@@ -3,8 +3,11 @@
 	padding: 0;
 }
 
+body {
+	font: normal 14px "Arial", sans-serif;
+}
+
 .banner {
-	height: 1000px;
 	background: url(../img/background.jpg) no-repeat center top; 
 	          background-size: cover;
 	     -moz-background-size: cover;
@@ -44,19 +47,78 @@ nav li:last-child {
 }
 
 nav a {
-	font: normal 14px "Arial", sans-serif;
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
-header:before {
-  content: "";
-  display: table;
-  clear: both;
+nav a:hover {
+	padding-bottom: 5px;
+	color: #fce38a;
+	border-bottom: 3px solid #fce38a;
 }
 
 header {
 	text-align: center;
 	padding-top: 153px;
+}
+
+header:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header:after {
+	display: block;
+	width: 60px;
+	height: 4px;
+	margin: 0 auto;
+	margin-top: 54px;
+    background-color: #fff; 
+    content: "";
+}
+
+h1 {
+	display: table;
+	width: 768px;
+	height: 256px;
+	margin: 0 auto;
+	font-size: 150px;
+	line-height: 140px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+h2 {
+	margin-bottom: 53px;
+	font-size: 72px;
+	color: #fff;
+}
+
+/*Сброс стандартных стилей кнопки*/
+button {
+	display: block;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.about {
+	width: 154px;
+	height: 34px;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-transform: uppercase;
+	border: 3px solid #fff;
+}
+
+.about:hover {
+	color: #fce38a;
+	border: 3px solid #fce38a;
 }
