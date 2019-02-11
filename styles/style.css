@@ -14,6 +14,7 @@ body {
 	       -o-background-size: cover;
 	  -webkit-background-size: cover;
   	background-color: #ccc;
+  	padding-bottom: 230px;
 }
 
 .wrap {
@@ -69,7 +70,8 @@ header:before {
 	clear: both;
 }
 
-header:after {
+header:after,
+h3:after {
 	display: block;
 	width: 60px;
 	height: 4px;
@@ -97,15 +99,35 @@ h2 {
 	color: #fff;
 }
 
+h3 {
+	font-style: 48px;
+	text-align: center;
+	text-transform: uppercase;
+			
+}
+
+h3:after {
+	width: 60px;
+	margin-top: 43px;
+    background-color: #f38181; 
+}
+
+h4 {
+	margin-top: 90px;
+	margin-bottom: 22px;
+	font-style: 24px;
+	text-align: center;
+}
+
 /*Сброс стандартных стилей кнопки*/
 button {
 	display: block;
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer;
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
 }
 
 .about {
@@ -121,4 +143,23 @@ button {
 .about:hover {
 	color: #fce38a;
 	border: 3px solid #fce38a;
+}
+
+.portfolio {
+	height: 730px;
+}
+
+.portfolio p {
+	width: 935px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 15px;
+	text-align: center;
+	color: #999;
+}
+
+.portfolio img {
+	float: left;
+	margin-right: 20px;
+	margin-top: 105px;
 }
