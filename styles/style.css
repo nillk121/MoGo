@@ -119,6 +119,11 @@ h4 {
 	text-align: center;
 }
 
+h5 {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
 /*Сброс стандартных стилей кнопки*/
 button {
 	display: block;
@@ -162,4 +167,47 @@ button {
 	float: left;
 	margin-right: 20px;
 	margin-top: 105px;
+}
+
+.works {
+	height: 600px;
+	background: #f8f8f8;
+}
+
+.works h4 {
+	padding-top: 50px;
+}
+
+.item {
+	position: relative;
+	left: 7%;
+	float: left;
+	width: 330px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.news-item {
+		overflow: hidden;
+}
+
+.item-1 {
+	width: 35px;
+	height: 55px;
+	background: url(../img/icon-digital.png) no-repeat;
+	float: left;
+	margin-right: 15px;\
+}
+
+footer {
+	height: 58px;
+	background: #ccc;
+}
+
+footer img
+ {
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
 }
